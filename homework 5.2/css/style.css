@@ -1,0 +1,358 @@
+@font-face
+{
+    font-family: 'Arimo';
+
+    src: url('../fonts/regular/Arimo-Regular.eot');
+
+    src: url('../fonts/regular/Arimo-Regular.eot?iefix') format('eot'),
+
+    url('../fonts/regular/Arimo-Regular.woff') format('woff'),
+
+    url('../fonts/regular/Arimo-Regular.ttf') format('truetype'),
+
+    url('../fonts/regular/Arimo-Regular.svg#webfont') format('svg');
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Arimo';
+
+    src: url('../fonts/bold/Arimo-bold.eot');
+
+    src: url('../fonts/bold/Arimo-bold.eot?iefix') format('eot'),
+
+    url('../fonts/bold/Arimo-bold.woff') format('woff'),
+
+    url('../fonts/bold/Arimo-bold.ttf') format('truetype'),
+
+    url('../fonts/bold') format('svg');
+
+    font-weight: 600;
+
+    font-style: normal;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arimo';
+    font-weight: 400;
+    background-color: #3a4965;
+    z-index: 111;
+}
+
+.gridWrapperAll{
+    width: 1134px;
+    margin: 30px auto;
+}
+
+.gridRow1
+{
+    display: grid;
+    grid-template-columns: 198px repeat(6, 156px);
+    grid-template-rows: 110px;
+    color: #484848;
+    font-weight: 600;
+}
+.gridRow1 i
+{
+    color: #848484;
+}
+
+.gridRow1 .row-1Item-1
+{
+    font-size: 14px;
+    text-align: center;
+    background-color: #fafafa;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.201);
+}
+
+.gridRow1 .row-1Item-1 .verticalMiddle
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 198px;
+    line-height: 20px;
+}
+
+.gridRow1 .row-1Item-1 span
+{
+    font-size: 20px;
+}
+
+.gridRow1 .row-1Item-2, .gridRow1 .row-1Item-4, .gridRow1 .row-1Item-6
+{
+    font-size: 20px;
+    text-align: center;
+    background-color: #e3e3e3;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gridRow1 .row-1Item-3, .gridRow1 .row-1Item-5, .gridRow1 .row-1Item-7
+{
+    font-size: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gridRow1 .row-1Item-2 .verticalMiddle, .gridRow1 .row-1Item-3 .verticalMiddle, .gridRow1 .row-1Item-4 .verticalMiddle,
+.gridRow1 .row-1Item-5 .verticalMiddle, .gridRow1 .row-1Item-6 .verticalMiddle, .gridRow1 .row-1Item-7 .verticalMiddle
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 156px;
+    line-height: 30px;
+    font-size: 16;
+}
+
+
+
+.gridRow2
+{
+    display: grid;
+    grid-template-columns: 198px repeat(6, 156px);
+    grid-template-rows: 52px 38px 75px;
+    color: #484848;
+    font-weight: 600;
+}
+
+.gridRow2 .row-2Item-1_1, .gridRow2 .row-2Item-1_2, .gridRow2 .row-2Item-1_3
+{
+    background-color: #89c331;
+}
+
+.gridRow2 .row-2Item-1_1
+{
+    line-height: 52px;
+    font-size: 24px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.gridRow2 .row-2Item-1_2
+{
+    grid-row: 2/3;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+    color: #eeeeee;
+}
+.gridRow2 .row-2Item-1_2 sup
+{
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.gridRow2 .row-2Item-1_2 span
+{
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.gridRow2 .row-2Item-1_3
+{
+    grid-row: 3/-1;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.gridRow2 .row-2Item-1_3 div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 75px;
+    width: 198px;
+    padding: 0;
+}
+.gridRow2 .row-2Item-1_3 button
+{
+    width: 144px;
+    height: 43px;
+    background-color: #484848;
+    box-shadow: inset 0px -7px #404040;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eeeeee;
+    transition: 0.2s;
+}
+.gridRow2 .row-2Item-1_3 button:hover
+{
+    background-color: #404040;
+}
+
+
+
+.gridRow2 .row-2Item-2, .gridRow2 .row-2Item-3,
+.gridRow2 .row-2Item-4, .gridRow2 .row-2Item-5,
+.gridRow2 .row-2Item-6, .gridRow2 .row-2Item-7
+{
+    background-color: #f2f2f2;
+    grid-row: 1 / -1;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: 400;
+}
+
+.gridRow2 .row-2Item-2, .gridRow2 .row-2Item-4, .gridRow2 .row-2Item-6
+{
+    background-color: #e3e3e3;
+}
+
+.gridRow2 .row-2Item-2 .verticalMiddle, .gridRow2 .row-2Item-3 .verticalMiddle,
+.gridRow2 .row-2Item-4 .verticalMiddle, .gridRow2 .row-2Item-5 .verticalMiddle,
+.gridRow2 .row-2Item-6 .verticalMiddle, .gridRow2 .row-2Item-7 .verticalMiddle
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 165px;
+    width: 156px;
+    line-height: 30px;
+}
+
+
+
+.gridRow2 .row-3Item-1_1, .gridRow2 .row-3Item-1_2, .gridRow2 .row-3Item-1_3
+{
+    background-color: #f04a56;
+}
+
+.gridRow2 .row-3Item-1_1
+{
+    line-height: 52px;
+    font-size: 24px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.gridRow2 .row-3Item-1_2
+{
+    grid-row: 2/3;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+    color: #eeeeee;
+}
+.gridRow2 .row-3Item-1_2 sup
+{
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.gridRow2 .row-3Item-1_2 span
+{
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.gridRow2 .row-3Item-1_3
+{
+    grid-row: 3/-1;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.gridRow2 .row-3Item-1_3 div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 75px;
+    width: 198px;
+    padding: 0;
+}
+.gridRow2 .row-3Item-1_3 button
+{
+    width: 144px;
+    height: 43px;
+    background-color: #484848;
+    box-shadow: inset 0px -7px #404040;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eeeeee;
+    transition: 0.2s;
+}
+.gridRow2 .row-3Item-1_3 button:hover
+{
+    background-color: #404040;
+}
+
+
+
+.gridRow2 .row-4Item-1_1, .gridRow2 .row-4Item-1_2, .gridRow2 .row-4Item-1_3
+{
+    background-color: #20807c;
+}
+
+.gridRow2 .row-4Item-1_1
+{
+    line-height: 52px;
+    font-size: 24px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.gridRow2 .row-4Item-1_2
+{
+    grid-row: 2/3;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 600;
+    color: #eeeeee;
+}
+.gridRow2 .row-4Item-1_2 sup
+{
+    font-size: 18px;
+    vertical-align: top;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.gridRow2 .row-4Item-1_2 span
+{
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.gridRow2 .row-4Item-1_3
+{
+    grid-row: 3/-1;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.gridRow2 .row-4Item-1_3 div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 75px;
+    width: 198px;
+    padding: 0;
+}
+.gridRow2 .row-4Item-1_3 button
+{
+    width: 144px;
+    height: 43px;
+    background-color: #484848;
+    box-shadow: inset 0px -7px #404040;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #eeeeee;
+    transition: 0.2s;
+}
+
+.gridRow2 .row-4Item-1_3 button:hover
+{
+    background-color: #404040;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body
+{
+    background-color: rgb(17, 17, 17);
+    overflow: hidden;
+    font-family: 'Roboto';
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+.cover{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    color: #dab402;
+    perspective: 450px; ;
+}
+
+.scroll-text
+{
+    position: relative;
+    font-size: 5vw;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+    animation-name: play; 
+    animation-duration:  30s;
+    animation-timing-function:  linear;
+    animation-iteration-count:  infinite;
+    animation-fill-mode: forwards;
+}
+h1
+{
+    font-size: 6vw;
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+}
+
+@keyframes play
+{
+    0% { top: 1000px;transform: translateZ(0) rotateX(20deg); opacity: 1;}
+    50% {opacity: 1;}
+    80% {opacity: 0;}
+    100% { top: -12000px; transform: translateZ(-5000px) rotateX(21deg); opacity: 0;}
+}
+
